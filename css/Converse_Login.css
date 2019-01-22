@@ -1,0 +1,528 @@
+html
+{ 
+	
+
+}
+
+body
+{	
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	background-color: #000000;
+	
+}
+.div_display
+{
+	
+	display: none;
+	
+}
+#div_welcome
+{
+	padding: 0;
+	margin: 0;
+	width: 450;
+	height: 100%;
+	position:fixed;
+	visibility: visible;	
+}
+#welcome_title
+{
+    font-family: "微软雅黑";
+    font-size: 50px;
+    color: white;    
+    text-align: left;
+    
+    position: fixed;
+    top: 55px;
+    left: -400px;
+   	
+}
+#tologin
+{
+	font-family: "微软雅黑";
+    font-size: 40px;
+    color: white;    
+    text-align: left;
+    margin: auto auto 0px auto;	
+	position: relative;
+    top: 400px;
+    left: 70px;
+    display: none;
+    
+    
+	
+}
+#tologin a
+{
+   	text-decoration: none;
+   	color:white;	
+}
+#tologin a:hover
+{
+   	color:silver;	
+   	
+    /*border:2px solid silver;*/
+   
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    margin: 0px 10px 0px 10px;
+}
+
+
+#tohome
+{
+	font-family: "微软雅黑";
+    font-size: 40px;
+    color: white;    
+    text-align: left;	
+	position: relative;
+    top: 380px;
+    left: 70px;
+    margin: 0;
+    display: none;
+    
+	
+}
+#tohome a
+{	
+	text-decoration: none;
+   	color:white;	
+}
+#tohome a:hover
+{	
+   color:silver;
+   /*border:2px solid silver;*/
+   
+   text-align: center;
+   padding: 0px 10px 0px 10px;
+   margin: 0px 10px 0px 10px;
+   		
+}
+
+.to_img
+{	
+    padding: 0;
+    margin: 0;
+    width: 60px;
+    height: 60px;
+    position: relative;	
+    top: 17px;
+    left: 0;
+    
+}
+
+
+#div_bgimg
+{ 
+	
+  background: url(../img/ef18fd5c52d336aa64e6807ec0847910.jpg);
+  position:fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height:100%;
+  min-width: 1000px;
+  z-index:-10; /*设置DIV层为第-10层*/
+  zoom: 1;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;  
+  background-position: center 0;
+  display: none;
+	
+}
+#div_registeView
+{
+	
+	background: white;
+    position: fixed;
+    top: 0;
+    left: 60px;
+    width: 350px;
+    height: 100%;
+    background-repeat: no-repeat;
+    
+    display: none;
+    
+    -moz-box-shadow:5px 5px 16px 2px #999 inset;               /* For Firefox3.6+ */
+	-webkit-box-shadow:5px 5px 16px 2px #999 inset;            /* For Chrome5+, Safari5+ */
+	box-shadow:5px 5px 16px 2px #999 inset;                    /* For Latest Opera */                                                                        
+	
+}
+#form_registe
+{
+	
+	text-align: left;	
+	margin: 0px 0px 0px 0px;
+	width: 350px;
+	height:auto;
+	
+			
+}
+
+.form_registe_p
+{
+	color: red;
+	font-size: 18px;
+	padding: 0;
+	margin: 0;
+	width: 8px;
+	height: 8px;
+	position: relative;
+	left: -10px;
+	top: 40px;
+	
+}
+.form_registe_label
+{
+	
+	font: "微软雅黑";
+	font-size: 15px;
+    width: auto;
+    position: relative;
+	left: 35px;
+}
+.form_registe_input
+{	
+	width: 200px;
+	height: 30px;
+	border: 2px solid silver;
+	margin: 25px 0px 0px 33px;		
+}
+
+#user_sex1
+{
+	padding: 0;
+	margin: 0;	
+	width: 25px;
+	height:25px;
+	position: relative;
+	top: 18px;
+	left: 58px;
+   
+}
+
+#checkbox_label1
+{
+	font: "微软雅黑";
+	font-size: 18px;
+    width: auto;
+    height: auto;
+    position: relative;
+    left: 60px;  
+    top: 12px;
+
+}
+
+#user_sex2
+{
+	padding: 0;
+	margin: 0;	
+	width: 25px;
+	height:25px;
+	position: relative;
+	top: 18px;
+	left: 100px;
+   
+}
+#checkbox_label2
+{
+	font: "微软雅黑";
+	font-size: 18px;
+    width: auto;
+    height: auto;
+    position: relative;
+    left: 100px;  
+    top: 12px;
+
+}
+#sex_label
+{
+	font: "微软雅黑";
+	font: 15px;
+	width: 20px;
+	height: 10px;
+	position: relative;
+	left: 58px;
+	top: 10px;
+	
+	
+}
+#sex_p
+{
+    color: red;
+	font-size: 18px;
+	padding: 0;
+	margin: 0;
+	width: 8px;
+	height: 8px;
+	position: relative;
+	left: -10px;
+	top: 18px;
+			
+}
+#msg_label
+{
+	font: "微软雅黑";
+	font: 15px;
+	width: 20px;
+	height: 10px;
+	position: relative;
+	left: 125px;
+	top: 25px;
+	
+	
+}
+
+#msg_p
+{
+
+    color: red;
+	font-size: 18px;
+	width: 8px;
+	height: 8px;
+	margin: 0;
+	position: relative;
+	top: 15px;
+	left: -11px;
+	
+
+}
+
+#msg_text
+{
+	
+	width: 100px;
+	height: 30px;
+	border: 2px solid silver;
+	margin: 0px 0px 0px 125px;
+	position: relative;
+	top: 25px;
+		
+}
+
+#msg_button
+{
+	
+	font-family: "微软雅黑";
+	font-size: 12px;
+	text-align: center;
+	color: white;
+	width: 103px;
+	height: 38px;
+	border: 1px solid #7D7D7D;
+	background-color: #7D7D7D;
+	position: relative;
+	top: 32px;
+	left: 210px;
+	
+	-moz-box-shadow:2px 2px 2px  #999 ;               /* For Firefox3.6+ */
+	-webkit-box-shadow:2px 2px 2px  #999 ;            /* For Chrome5+, Safari5+ */
+	box-shadow:2px 2px 2px  #999 ;                    /* For Latest Opera */
+		
+}
+
+#info
+{
+	display: block;
+	text-align: right;
+	margin: 0;
+	padding: 0;
+	font: "微软雅黑";
+	font-size: 13px;
+	
+	color: silver;
+	position: relative;
+	top: 50px;
+	left: -32px;	
+	line-height: 1.2;
+		
+}
+
+#info a
+{
+    text-decoration: underline;
+	color: silver;		
+}
+#info a:hover
+{
+	color: #000000;	
+}	
+
+#form_submit
+{
+	font-family: "微软雅黑";
+	font-size: 25px;
+	text-align: center;
+	color: white;
+	width: 200px;
+	height: 38px;
+	border: 1px solid #000000;
+	background-color: #000000;
+	position: relative;
+	top: 65px;
+	left: 115px;
+	
+	-moz-box-shadow:2px 2px 2px  #999 ;               /* For Firefox3.6+ */
+	-webkit-box-shadow:2px 2px 2px  #999 ;            /* For Chrome5+, Safari5+ */
+	box-shadow:2px 2px 2px  #999 ;                    /* For Latest Opera */
+	
+	
+}
+
+#div_loginView
+{
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 60px;
+    width: 350px;
+    height: 100%;
+    background-repeat: no-repeat;
+    display: none;
+    
+    -moz-box-shadow:5px 5px 16px 2px #999 inset;               /* For Firefox3.6+ */
+	-webkit-box-shadow:5px 5px 16px 2px #999 inset;            /* For Chrome5+, Safari5+ */
+	box-shadow:5px 5px 16px 2px #999 inset;                    /* For Latest Opera */
+    	
+}
+#p_tipword
+{
+	text-align: left;
+	font-size: 42px;
+	font-style: normal;
+	font-family:"微软雅黑";
+	color: black;
+	padding: 10px 10px 0px 28px;
+	margin: 40px 0px 0px 0px;
+	
+	
+		
+}
+
+#form_loginInput
+{
+	
+	text-align: left;
+	position: relative;
+	top: 45px;
+	left: 75px;	
+	
+}
+
+.form_loginInput_label
+{
+	
+	font: "微软雅黑";
+	font-size: 20px;
+    width: 100px;
+    margin-bottom: 5px;      	
+	
+}
+.form_loginInput_input
+{
+	width: 200px;
+	height: 30px;
+	border: 2px solid silver;
+	
+}
+.from_loginInput_button
+{
+	font-family: "微软雅黑";
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	width: 100px;
+	height: 38px;
+	border: 1px solid black;
+	background-color: black;
+	position: relative;
+	top: 5px;
+	left: -17px;
+	
+	-moz-box-shadow:2px 2px 2px  #999 ;               /* For Firefox3.6+ */
+	-webkit-box-shadow:2px 2px 2px  #999 ;            /* For Chrome5+, Safari5+ */
+	box-shadow:2px 2px 2px  #999 ;                    /* For Latest Opera */
+		
+}
+#login_Tip
+{
+	font: "微软雅黑";
+	font-size: 13px;
+	text-align: center;
+	color: red;
+	visibility: hidden;
+}
+
+#p_toindex
+{
+	font: "微软雅黑";
+	font-size: 38px;
+	text-align: center;
+	color: black;	
+	position: relative;
+	top: 90px;
+	left:-15px;
+	
+}
+a
+{	
+	text-decoration: none;
+	color: black;	
+}
+a:hover
+{
+	color: silver;	
+}
+
+img
+{
+	width: 120px;
+	height: 120px;
+	position: relative;
+	left: 68px;
+	top: -31px;
+		
+}
+
+/*#login_div
+{
+	
+	width: 400px;
+	height: 330px;
+	background-color: white;
+	position: fixed;
+	top: 140px;
+	text-align: center;
+	line-height: 50px;
+	
+   以下为CSS3新增方法 适配各种浏览器
+	display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+  
+    display: -moz-box;
+    -moz-box-orient: horizontal;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+  
+    display: -o-box;
+    -o-box-orient: horizontal;
+    -o-box-pack: center;
+    -o-box-align: center;
+  
+    display: -ms-box;
+    -ms-box-orient: horizontal;
+    -ms-box-pack: center;
+    -ms-box-align: center;
+  
+    display: box;
+    box-orient: horizontal;
+    box-pack: center;
+    box-align: center;
+	
+}*/

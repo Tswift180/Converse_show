@@ -1,0 +1,100 @@
+<!--
+	作者：719970431@qq.com
+	时间：2018-11-13
+	描述：	
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="css/Converse_Login.css" />
+        <script type="text/javascript" src="jquery-1.12.2.min.js" ></script>
+        <script type="text/javascript" src="jquery-1.12.2.js" ></script>
+        <script type="text/javascript" src="js/js_login.js" ></script>
+        <title>Converse Login</title>
+    </head>
+    <body>
+  	  	
+  	  	  
+    	 <div id="div_bgimg"></div>
+    	 <div id="div_welcome"> 
+    	 	<script>
+  	  	     	
+  	  	     	function topage()
+  	  	     	{
+  	  	     		window.open("Converse_index.jsp");
+  	  	     	}
+  	  	     	
+  	  	     </script>
+  	  	     <p id="welcome_title">你终于来了<br/>来点踩的还是穿的？</p>
+  	  	     <p id="tologin"><a>登录或注册</a><img class="to_img" src="img/to.png"/></p>
+  	  	     <p id="tohome" onclick="topage()"><a>先逛逛</a><img class="to_img" src="img/to.png"/></p>
+  	  	     
+  	  	     
+  	  	 </div>	
+    	     	    	 
+    	 <div id="div_registeView">
+    	      
+    	      <form id="form_registe" action="" method="">
+    	      	   	         
+    	         <label class="form_registe_label"><p class="form_registe_p">*</p>手机号码：</label>
+    	         <input type="text" class="form_registe_input" id="phone_number" />   	         
+    	         <label class="form_registe_label"><p class="form_registe_p">*</p>邮箱地址：</label>
+    	         <input type="text" class="form_registe_input" id="email" />    	         
+    	         <label class="form_registe_label"><p class="form_registe_p">*</p>输入密码：</label>
+    	         <input type="password" class="form_registe_input" id="pwd" />   	         
+    	         <label class="form_registe_label"><p class="form_registe_p">*</p>确认密码：</label>
+    	         <input type="password" class="form_registe_input" id="twice_pwd" />
+    	         
+    	         
+    	         <label id="sex_label"><p id="sex_p">*</p>性别：</label>   	               	              
+    	         <input type="checkbox" class="" id="user_sex1" name="checkbox"/>
+    	         <label id="checkbox_label1" for="user_sex1">男的</label>
+    	         <input type="checkbox" class="" id="user_sex2" name="checkbox"/>
+    	         <label id="checkbox_label2" for="user_sex2">女的</label>
+    	         
+    	          
+    	         <label id="msg_label"><p id="msg_p">*</p>短信验证码</label> 
+    	         <input type="text" id="msg_text" />
+    	         
+    	         <input type="button" id="msg_button" value="获取短信验证码"/>
+    	         <span id="info">注册账户<br/>即表明你同意匡威的<a>法律声明</a>和<a>使用规则</a></span>   	            	             	    
+ 	          	 <input type="submit" value="注册账户" id="form_submit"/>   
+ 	          	     
+    	      </form>
+    	      
+    	 </div>
+    	
+    	
+    	 <div id="div_loginView">
+    	 
+    	 <p id="p_tipword">看来你有账号<br>让我们登录一下</p>
+    	 
+    	 <form id="form_loginInput" action="" method="">
+    	 
+    	    <label class="form_loginInput_label" for="userId" id="userId_label">你的ID：</label>   	    
+    	    <br />
+    	    <input type="text" class="form_loginInput_input" id="userId" name="userId" />
+    	    <br />
+    	    <br />    	    
+    	    <label class="form_loginInput_label" for="userPwd" id="userPwd_label">你的密码：</label>
+    	    <br />
+    	    <input type="password" class="form_loginInput_input" id="userPwd" name="userPwd" />
+ 	        <br />
+ 	        <label id="login_Tip">* 用户名或密码错误</label>
+ 	        <br />
+ 	        <br />   
+ 	        <input type="submit" class="from_loginInput_button" id="login_button" value="登录"/>
+ 	        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 	        <input type="button" class="from_loginInput_button" id="registe_button" value="注册"/>	              
+    	 </form>
+    	 
+    	 <p id="p_toindex"><a href="">先逛逛</a></p>
+    	 <img src="img/toindex.png" /> 
+    	 
+    	 
+
+    	 </div>
+ 
+ 	</body>
+</html>

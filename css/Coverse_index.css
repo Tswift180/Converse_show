@@ -1,0 +1,290 @@
+body
+{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	height:2000px;
+	background-color: darkgreen;
+	
+}
+.container
+{
+    position: relative;
+    margin: 0;
+    height: auto !important;
+    height: 2000px;
+    min-height: 100%;	
+	
+	
+}
+#frist_navigation_bar
+{
+	background-color: #000000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 13%;
+	width: 100%;
+	/*z-index: -10;*/
+}
+#Top_Logo
+{
+	
+	padding: 0;
+	margin: 10px auto 0px auto;
+	width: 230px;
+	height: 60px;
+	text-align: center;
+}
+.top_img
+{
+  padding: 0;
+  margin: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;	
+  	
+}
+.span_radius
+{
+	display: block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #464646;
+	overflow: hidden;
+	
+	
+}
+#top_UserSpan
+{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 70px;
+	top: 20px;	
+}
+#top_span_a
+{
+	text-align: center;
+	font-size: 10px;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 32px;
+	left: 120px;
+	z-index: 100;
+	display: block;
+	
+}
+#top_span_a a
+{
+	text-decoration: none;
+}
+
+#frist_navigation_bar a 
+{
+	
+	color: white;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	
+}
+
+
+#top_Shopping
+{
+	background-color:#940000;
+	position: absolute;
+	top: 20px;
+	right: 70px;
+	
+	
+}
+
+#top_SearchSpan
+{
+	position: absolute;
+    left: 20px;
+    top: 20px;	
+	
+}
+#top_Help
+{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	
+}
+
+/****************第二个导航栏开始*****************/
+
+#second_navigation_bar
+{
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top:80px;
+	left: 0;
+	width: 100%;
+	height: 45px;
+	background-color: #464646;	
+}
+#second_navigation_bar ul
+{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	color: white;
+	display: inline;
+	width: 100%;
+	height: 25px;	
+	
+}
+#second_navigation_bar ul li
+{
+	display: inline-block;
+	padding: 5px 40px 0px 40px;
+	margin: 0;
+	font: "微软雅黑";
+	font-size: 18px;
+}
+#second_navigation_bar ul li a
+{
+	color: white;
+	text-decoration: none;	
+}
+#second_navigation_bar ul li a:hover
+{
+	text-decoration: underline;
+}
+#second_navigation_bar img
+{
+	width: 12px;
+	height: 6px;
+
+}
+
+/*******************导航栏扩充由此开始********************/
+
+.nav_expand_div
+{
+	position: fixed;
+	top: 125px;
+	left: 0;
+	width: 100%;
+	height: 220px;
+	background-color: white;
+	display: none;
+	
+}
+.nav_expand_div table
+{
+	text-align: center;
+    width: 90px;
+    height: 90px;
+    margin: auto;	
+       
+}
+.nav_expand_div	table td
+{
+				
+	padding: 0px 20px 0px 20px;
+	
+				
+}
+.nav_expand_div	table img
+{
+				
+	width: 90px;
+	height: 90px;
+				
+}		
+.nav_expand_div table tr td a
+{
+	
+	position: relative;
+	top: -30px;
+	left: 0px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	color: #464646;
+	text-decoration: none;
+	    							
+}
+.nav_expand_div table tr td a:hover
+{	
+	text-decoration: underline;
+}
+	
+.nav_expand_div hr
+{
+	position: relative;
+   	top: -20px;
+	
+}
+.second_table_css
+{
+	position: relative;
+	top: -25px;
+}
+
+/****************底部注脚开始*****************/
+
+
+#footer
+{
+	width: 100%;
+	height: 6%;
+	background-color: #000000;
+	font-family: "微软雅黑";
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	
+   		
+}
+#footer ul
+{
+	padding: 0;
+}
+
+
+#footer ul li
+{
+   
+   color: white;
+   display: inline;
+   font-size: 0.5em;
+   margin: 0px 5px 0px 5px;	
+   		
+}
+#footer img
+{
+	padding: 0;
+	margin: 50px auto auto auto;
+	width: 160px;
+	height: 40px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	
+	
+	
+}
+#footer p
+{
+	
+	color: #FFFFFF;
+	margin: auto;
+	font-size: 0.5em;
+	position: relative;
+    top: 40px;
+	
+}
+
+
